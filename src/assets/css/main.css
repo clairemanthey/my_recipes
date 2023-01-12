@@ -76,6 +76,7 @@ a{
 	background-color: var(--primary-bg);
 	gap: 10px;
 	padding: 5px 0 0 0;
+	color: var(--text-main);
 }
 
 .nav-main{
@@ -520,11 +521,15 @@ a{
 	}
 
 	.featured-recipes{
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 40px 100px;	
-		margin: 50px 0 50px 25px;
+		display: grid;
+		grid-template-columns: auto auto;
+		gap: 40px 80px;	
+		justify-items: center;
+		margin: 15px auto;
+	}
+
+	.recipe{
+		min-width: 200px;
 	}
 
 	/*--About Page--*/
@@ -534,7 +539,7 @@ a{
 	}
 
 	.profile_image{
-		max-width: 275px;
+		max-width: 250px;
 	}
 
 	/*--Tags Page--*/

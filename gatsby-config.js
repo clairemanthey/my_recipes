@@ -14,9 +14,10 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata:{
-    title:"Simple Recipes",
-    description:"Nice and clean recipes site",
+    title:"Claire Makes Recipes",
+    description:"clean recipe site",
     author: "me",
+    image: `static/icon_white.png`,
     person:{
       name: "name",
       age:159
@@ -45,5 +46,6 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_API_KEY,
       },
     },
+
   ],
 }

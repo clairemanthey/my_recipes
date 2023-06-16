@@ -6,6 +6,8 @@ A recipe site that houses my favorite recipes that I make again and again. The l
 
 [Motivation](#Motivation)
 
+[Screenshot](#Screenshot)
+
 [Built With](#built-with)
 
 [License](#License)
@@ -19,6 +21,10 @@ I used the Contentful CMS to manage the content. It allowed me to add new recipe
 
 ## Motivation
 I created this site as a way to easily access recipes I enjoy and keep track of how I changed them. I wanted a simple, clean recipe site with just the information for that recipe. I had previously been storing them as screenshots on my phone and tried to remember the adaptations I made. 
+
+## Screenshot
+
+![My Image](image.png)
 
 ## Built With
 - React
